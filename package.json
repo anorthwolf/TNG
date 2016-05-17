@@ -1,0 +1,38 @@
+{
+  "name": "TNG",
+  "version": "1.0.0",
+  "description": "tng test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Alan Yang",
+  "license": "MIT",
+  "dependencies": {
+    "angular-mocks": "^1.5.2",
+    "connect-modrewrite": "^0.8.5",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^2.2.1",
+    "grunt-connect-proxy": "git+https://github.com/drewzboto/grunt-connect-proxy.git",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-htmlmin": "^0.5.0",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-dev-prod-switch": "^0.1.8",
+    "grunt-remove-logging-calls": "^0.1.2",
+    "grunt-template-jasmine-requirejs": "^0.2.3",
+    "serve-static": "^1.10.2",
+    "time-grunt": "^1.2.2",
+    "grunt-bower": "^0.21.1"
+  }
+}
